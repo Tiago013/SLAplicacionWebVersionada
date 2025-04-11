@@ -11,6 +11,7 @@ public class HomeController : Controller
     /// 
     /// </summary>
     /// <param name="logger">Este para...</param>
+    /// 
 
     public HomeController(ILogger<HomeController> logger)
     {
@@ -30,6 +31,10 @@ public class HomeController : Controller
     {
         return View();
     }
+    /// <summary>
+    /// Comentario de cambio
+    /// </summary>
+    /// <returns></returns>
 
     [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
     public IActionResult Error()
